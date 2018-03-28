@@ -1,6 +1,6 @@
 ## github-ribbon
 
-W.I.P
+Very much as W.I.P.. As in, I haven't written any code for this yet.
 
 ```javascript
 import React from 'react';
