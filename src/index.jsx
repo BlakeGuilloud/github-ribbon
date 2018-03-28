@@ -54,4 +54,4 @@ GitHubRibbon.defaultProps = {
   position: 'left',
 };
 
-export default GitHubRibbon;
+module.exports = GitHubRibbon;
