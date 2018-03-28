@@ -30,7 +30,7 @@ const RibbonImage = styled.img.attrs({
   left: ${props => props.position === 'left' && 0};
 `;
 
-const GitHubRibbon = ({ alt, link, position, color }) => {
+const GithubRibbon = ({ alt, link, position, color }) => {
   const ribbonSrc = `https://s3.amazonaws.com/github/ribbons/forkme_${position}_${ribbonSrcSuffix(color)}.png`;
 
   return (
@@ -40,18 +40,18 @@ const GitHubRibbon = ({ alt, link, position, color }) => {
   );
 };
 
-GitHubRibbon.propTypes = {
+GithubRibbon.propTypes = {
   alt: PropTypes.string,
   color: PropTypes.string,
   link: PropTypes.string,
   position: PropTypes.string,
 };
 
-GitHubRibbon.defaultProps = {
+GithubRibbon.defaultProps = {
   alt: 'Fork me on GitHub',
   color: 'darkblue',
   link: 'https://github.com',
   position: 'left',
 };
 
-export default GitHubRibbon;
+export default GithubRibbon;

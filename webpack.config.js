@@ -12,6 +12,7 @@ module.exports = () => ({
     path: paths.dist,
     filename: 'bundle.js',
     libraryTarget: 'umd',
+    library: 'GithubRibbon',
   },
   plugins: [
     new UglifyJSPlugin({
