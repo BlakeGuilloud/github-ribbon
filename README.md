@@ -1,5 +1,9 @@
 ## github-ribbon
 
+```bash
+$ yarn add gh-ribbon
+```
+
 ```javascript
 import React from 'react';
 import Ribbon from 'gh-ribbon';
