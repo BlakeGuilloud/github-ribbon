@@ -1,10 +1,8 @@
 ## github-ribbon
 
-Very much as W.I.P.. As in, I haven't written any code for this yet.
-
 ```javascript
 import React from 'react';
-import Ribbon from 'github-ribbon';
+import Ribbon from 'gh-ribbon';
 
 const App = () => (
   <div>
