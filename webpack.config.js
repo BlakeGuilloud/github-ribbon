@@ -11,7 +11,7 @@ module.exports = () => ({
   output: {
     path: paths.dist,
     filename: 'bundle.js',
-    libraryTarget: 'umd',
+    libraryTarget: 'var',
     library: 'GithubRibbon',
   },
   plugins: [
