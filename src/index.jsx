@@ -35,7 +35,7 @@ const GitHubRibbon = ({ alt, link, position, color }) => {
 
   return (
     <a href={link}>
-      <RibbonImage src={ribbonSrc} alt={alt} />
+      <RibbonImage position={position} src={ribbonSrc} alt={alt} />
     </a>
   );
 };
@@ -54,4 +54,4 @@ GitHubRibbon.defaultProps = {
   position: 'left',
 };
 
-module.exports = GitHubRibbon;
+export default GitHubRibbon;
