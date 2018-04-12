@@ -11,8 +11,7 @@ module.exports = () => ({
   output: {
     path: paths.dist,
     filename: 'bundle.js',
-    libraryTarget: 'var',
-    library: 'GithubRibbon',
+    libraryTarget: 'umd',
   },
   plugins: [
     new UglifyJSPlugin({
