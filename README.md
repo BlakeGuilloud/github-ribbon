@@ -20,7 +20,7 @@ export default App;
 
 ## Props
 ### color
-  - red
+  - red (default)
   - green
   - darkblue
   - orange
@@ -29,12 +29,12 @@ export default App;
 
 
 ### position
-  - left
+  - left (default)
   - right
 
 ### link
-  - URL to the project's Github repo
+  - URL to the project's Github repo (default - http://github.com)
 
 ### alt
-  - alt tag for when things don't go as planned
+  - alt tag for when things don't go as planned (default - "fork me on github")
 
